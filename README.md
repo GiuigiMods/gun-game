@@ -1,4 +1,4 @@
-Terms of Use for Missionary
+Terms of Use for Gun Game
 
 Introduction This Terms of Use document ("Terms") governs the use of Missionary ("the Mod"), a modification created for 7 Days to Die ("the Game"). By downloading, installing, or using the Mod, you agree to abide by these Terms.
 
