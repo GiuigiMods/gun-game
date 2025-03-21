@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="GunGameHardcore"/>
+	<DisplayName value="Gun Game Hardcore"/>
+    <Description value="This mod challenges survivors in killing zombies using a different weapon every 100 kills"/>
+    <Author value="Giuigi"/>
+    <Website value="https://github.com/GiuigiMods/gun-game"/>
+	<Version value="1.0.0"/>
+</xml>

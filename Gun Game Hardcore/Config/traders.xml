@@ -1,0 +1,6 @@
+<Giuigi>
+
+<remove xpath="/traders/trader_item_groups/trader_item_group/item[starts-with(@name,'bowsSkillMagazine') or starts-with(@name,'spearsSkillMagazine') or starts-with(@name,'clubsSkillMagazine') or starts-with(@name,'sledgehammersSkillMagazine') or starts-with(@name,'knucklesSkillMagazine') or starts-with(@name,'bladesSkillMagazine')  or starts-with(@name,'handgunsSkillMagazine') or starts-with(@name,'shotgunsSkillMagazine') or starts-with(@name,'riflesSkillMagazine') or starts-with(@name,'machineGunsSkillMagazine')]"/>
+<remove xpath="/traders/trader_info/trader_items/item[starts-with(@group,'groupMeleeAll') or starts-with(@group,'groupRangedAll')]"/>
+
+</Giuigi>

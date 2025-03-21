@@ -1,0 +1,7 @@
+<Giuigi>
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns' or @name='craftingShotguns' or @name='craftingRifles' or @name='craftingMachineGuns' or @name='craftingSpears' or @name='craftingBows' or @name='craftingSledgehammers' or @name='craftingClubs' or @name='craftingBlades' or @name='craftingKnuckles' or @name='craftingSalvageTools' or @name='craftingRepairTools' or @name='craftingHarvestingTools']"/>
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/display_entry[@icon='gunExplosivesT3RocketLauncher']"/>
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/display_entry[@item='meleeWpnBatonT0PipeBaton' or @item='meleeWpnBatonT2StunBaton']"/>
+
+</Giuigi>

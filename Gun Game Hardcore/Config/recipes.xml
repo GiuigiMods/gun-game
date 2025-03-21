@@ -1,0 +1,5 @@
+<Giuigi>
+
+<remove xpath="/recipes/recipe[starts-with(@name,'meleeWpn') and not(contains(@name,'Parts')) or starts-with(@name,'gun') and not(contains(@name,'Parts')) and not(contains(@name,'Junk'))]"/>
+
+</Giuigi>

@@ -1,0 +1,9 @@
+<Giuigi>
+
+<remove xpath="/lootcontainers/lootgroup/item[starts-with(@name,'meleeWpn') and not(contains(@name,'Parts')) or starts-with(@name,'gun') and not(contains(@name,'Parts')) and not(contains(@name,'Junk')) or starts-with(@name,'bowsSkillMagazine') or starts-with(@name,'spearsSkillMagazine') or starts-with(@name,'clubsSkillMagazine') or starts-with(@name,'sledgehammersSkillMagazine') or starts-with(@name,'knucklesSkillMagazine') or starts-with(@name,'bladesSkillMagazine') or starts-with(@name,'handgunsSkillMagazine') or starts-with(@name,'shotgunsSkillMagazine') or starts-with(@name,'riflesSkillMagazine') or starts-with(@name,'machineGunsSkillMagazine')]"/>
+
+<set xpath="/lootcontainers/lootgroup[contains(@name,'Firearms')]">
+	<item group="groupWeapons_RangedParts"/>
+</set>
+
+</Giuigi>
