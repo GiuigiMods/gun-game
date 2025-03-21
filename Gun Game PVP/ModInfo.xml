@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="GunGamePVP"/>
+	<DisplayName value="Gun Game PVP"/>
+    <Description value="This mod challenges survivors in killing other survivors using a different weapon each kill"/>
+    <Author value="Giuigi"/>
+    <Website value="https://github.com/GiuigiMods/gun-game"/>
+	<Version value="1.0.0"/>
+</xml>

@@ -1,0 +1,1003 @@
+<Giuigi>
+
+<append xpath="/gameevents">
+
+<action_sequence name="tier1_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress1GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunBowGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier2_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress2GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPipeShotgunGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier3_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress3GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPipePistolGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier4_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress4GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPipeRifleGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier5_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress5GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPipeMachineGunGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier6_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress6GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunWoodenBowGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier7_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress7GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunDoubleBarrelShotgunGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier8_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress8GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunIronCrossbowGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier9_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress9GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPistolGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier10_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress10GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunHuntingRifleGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier11_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress11GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunCompoundBowGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier12_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress12GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunPumpShotgunGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier13_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress13GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunAK47GunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier14_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress14GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunMagnumGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier15_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress15GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunCompoundCrossbowGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier16_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress16GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunSMGGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier17_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress17GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunLeverActionRifleGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier18_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress18GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunTacticalARGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier19_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress19GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunDesertVultureGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier20_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress20GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunSniperRifleGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier21_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress21GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunAutoShotgunGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier22_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress22GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunM60GunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier23_GunGameG_gun">
+	<action class="AddBuff">
+		<property name="buff_name" value="buffProgress23GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="ReplaceItems">
+		<property name="phase" value="2"/>
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="replaced_by_item" value="gunRocketLauncherGunGameG"/>
+		<property name="items_tags" value="gun_game"/>
+		<property name="count" value="1"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier1_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress1GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier2_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress2GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier3_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress3GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier4_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress4GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier5_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress5GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier6_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress6GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier7_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress7GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier8_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress8GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier9_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress9GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier10_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress10GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier11_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress11GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier12_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress12GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier13_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress13GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier14_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress14GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier15_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress15GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier16_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress16GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier17_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress17GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier18_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress18GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier19_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress19GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier20_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress20GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier21_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress21GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier22_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress22GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier23_GunGameG_success">
+	<action class="AddBuff">
+		<property name="removes_buff" value="buffProgress23GunGameG" param1="removebuff"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier1_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier1_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier1_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier2_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier2_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier1_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier3_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier3_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier2_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier4_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier4_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier3_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier5_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier5_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier4_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier6_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier6_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier5_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier7_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier7_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier6_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier8_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier8_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier7_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier9_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier9_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier8_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier10_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier10_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier9_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier11_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier11_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier10_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier12_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier12_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier11_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier13_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier13_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier12_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier14_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier14_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier13_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier15_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier15_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier14_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier16_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier16_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier15_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier17_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier17_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier16_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier18_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier18_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier17_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier19_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier19_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier18_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier20_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier20_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier19_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier21_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier21_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier20_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier22_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier22_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier21_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="tier23_GunGameG_fail">
+	<action class="FailQuest">
+		<property name="quest" value="tier23_GunGameG"/>
+		<property name="phase" value="1"/>
+	</action>
+	<action class="RemoveItems">
+		<property name="items_location" value="Toolbelt, Backpack, Equipment, Held"/>
+		<property name="items_tags" value="human_skull_gun_game"/>
+		<property name="phase" value="2"/>
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="tier22_GunGameG"/>
+		<property name="notify" value="true"/>
+		<property name="phase" value="3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="add_human_skull">
+	<action class="AddItems">
+		<property name="added_items" value="humanSkullGunGameG"/>
+		<property name="added_item_counts" value="1"/>
+	</action>
+</action_sequence>
+
+</append>
+
+</Giuigi>

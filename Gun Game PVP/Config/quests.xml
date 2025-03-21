@@ -1,0 +1,806 @@
+<Giuigi>
+
+<append xpath="/quests">
+
+<quest id="quest_startGunGameG">
+	<property name="name_key" value="quest_startGunGameG"/>
+	<property name="subtitle_key" value="quest_startGunGameG_subtitle"/>
+	<property name="description_key" value="quest_startGunGameG_description"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="category_key" value="quest"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="difficulty_tier" value="0" param1="difficulty"/>
+	<property name="offer_key" value="quest_startGunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="repeatable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	
+	<reward type="Item" id="gunBowGunGameG"/>
+	<reward type="Quest" id="tier1_GunGameG"/>
+</quest>
+
+<quest id="tier1_GunGameG">
+	<property name="name_key" value="quest_tier1_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier1_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier1_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier1_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier1_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier1_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier2_GunGameG"/>
+</quest>
+
+<quest id="tier2_GunGameG">
+	<property name="name_key" value="quest_tier2_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier2_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier2_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier2_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier2_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier2_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier3_GunGameG"/>
+</quest>
+
+<quest id="tier3_GunGameG">
+	<property name="name_key" value="quest_tier3_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier3_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier3_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier3_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier3_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier3_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier4_GunGameG"/>
+</quest>
+
+<quest id="tier4_GunGameG">
+	<property name="name_key" value="quest_tier4_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier4_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier4_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier4_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier4_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier4_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier5_GunGameG"/>
+</quest>
+
+<quest id="tier5_GunGameG">
+	<property name="name_key" value="quest_tier5_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier5_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier5_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier5_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier5_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier5_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier6_GunGameG"/>
+</quest>
+
+<quest id="tier6_GunGameG">
+	<property name="name_key" value="quest_tier6_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier6_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier6_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier6_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier6_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier6_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier7_GunGameG"/>
+</quest>
+
+<quest id="tier7_GunGameG">
+	<property name="name_key" value="quest_tier7_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier7_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier7_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier7_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier7_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier7_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier8_GunGameG"/>
+</quest>
+
+<quest id="tier8_GunGameG">
+	<property name="name_key" value="quest_tier8_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier8_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier8_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier8_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier8_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier8_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier9_GunGameG"/>
+</quest>
+
+<quest id="tier9_GunGameG">
+	<property name="name_key" value="quest_tier9_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier9_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier9_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier9_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier9_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier9_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier10_GunGameG"/>
+</quest>
+
+<quest id="tier10_GunGameG">
+	<property name="name_key" value="quest_tier10_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier10_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier10_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier10_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier10_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier10_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier11_GunGameG"/>
+</quest>
+
+<quest id="tier11_GunGameG">
+	<property name="name_key" value="quest_tier11_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier11_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier11_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier11_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier11_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier11_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier12_GunGameG"/>
+</quest>
+
+<quest id="tier12_GunGameG">
+	<property name="name_key" value="quest_tier12_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier12_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier12_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier12_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier12_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier12_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier13_GunGameG"/>
+</quest>
+
+<quest id="tier13_GunGameG">
+	<property name="name_key" value="quest_tier13_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier13_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier13_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier13_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier13_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier13_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier14_GunGameG"/>
+</quest>
+
+<quest id="tier14_GunGameG">
+	<property name="name_key" value="quest_tier14_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier14_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier14_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier14_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier14_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier14_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier15_GunGameG"/>
+</quest>
+
+<quest id="tier15_GunGameG">
+	<property name="name_key" value="quest_tier15_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier15_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier15_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier15_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier15_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier15_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier16_GunGameG"/>
+</quest>
+
+<quest id="tier16_GunGameG">
+	<property name="name_key" value="quest_tier16_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier16_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier16_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier16_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier16_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier16_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier17_GunGameG"/>
+</quest>
+
+<quest id="tier17_GunGameG">
+	<property name="name_key" value="quest_tier17_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier17_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier17_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier17_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier17_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier17_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier18_GunGameG"/>
+</quest>
+
+<quest id="tier18_GunGameG">
+	<property name="name_key" value="quest_tier18_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier18_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier18_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier18_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier18_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier18_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier19_GunGameG"/>
+</quest>
+
+<quest id="tier19_GunGameG">
+	<property name="name_key" value="quest_tier19_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier19_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier19_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier19_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier19_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier19_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier20_GunGameG"/>
+</quest>
+
+<quest id="tier20_GunGameG">
+	<property name="name_key" value="quest_tier20_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier20_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier20_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier20_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier20_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier20_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier21_GunGameG"/>
+</quest>
+
+<quest id="tier21_GunGameG">
+	<property name="name_key" value="quest_tier21_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier21_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier21_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier21_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier21_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier21_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier22_GunGameG"/>
+</quest>
+
+<quest id="tier22_GunGameG">
+	<property name="name_key" value="quest_tier22_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier22_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier22_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier22_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier22_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier22_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Quest" id="tier23_GunGameG"/>
+</quest>
+
+<quest id="tier23_GunGameG">
+	<property name="name_key" value="quest_tier23_GunGameG"/>
+	<property name="subtitle_key" value="quest_tier23_GunGameG_subtitle"/>
+	<property name="description_key" value="quest_tier23_GunGameG_offer"/>
+	<property name="icon" value="ui_game_symbol_map_cursor"/>
+	<property name="repeatable" value="true"/>
+	<property name="add_to_tier_complete" value="false"/>
+	<property name="category_key" value="quest"/>
+	<property name="offer_key" value="quest_tier23_GunGameG_offer"/>
+	<property name="shareable" value="false"/>
+	<property name="allow_remove" value="false"/>
+	<action type="TrackQuest"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier23_GunGameG_gun"/>
+		<property name="phase" value="1"/>
+		<property name="hidden" value="true"/>
+	</action>
+
+	<objective type="FetchKeep" id="humanSkullGunGameG" value="1" phase="2"/>
+	
+	<action type="GameEvent">
+		<property name="event_tag" value="Game"/>
+		<property name="event" value="tier23_GunGameG_success"/>
+		<property name="phase" value="3"/>
+		<property name="hidden" value="true"/>
+	</action>
+	
+	<objective type="Time" time="1" value="1" phase="3"/>
+	
+	<reward type="Item" id="bagGunGameG"/>
+</quest>
+
+</append>
+
+</Giuigi>

@@ -1,0 +1,352 @@
+<Giuigi>
+
+<append xpath="/buffs">
+
+<buff name="buffProgress1GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier1_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress1GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress2GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier2_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress2GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress3GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier3_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress3GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress4GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier4_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress4GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress5GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier5_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress5GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress6GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier6_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress6GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress7GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier7_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress7GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress8GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier8_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress8GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress9GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier9_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress9GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress10GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier10_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress10GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress11GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier11_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress11GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress12GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier12_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress12GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress13GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier13_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress13GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress14GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier14_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress14GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress15GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier15_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress15GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress16GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier16_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress16GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress17GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier17_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress17GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress18GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier18_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress18GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress19GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier19_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress19GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress20GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier20_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress20GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress21GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier21_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress21GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress22GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier22_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress22GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffProgress23GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Player Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_human_skull">
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier23_GunGameG_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffProgress23GunGameG"/>
+	</effect_group>
+</buff>
+
+</append>
+
+</Giuigi>

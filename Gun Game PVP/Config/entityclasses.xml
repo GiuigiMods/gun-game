@@ -1,0 +1,7 @@
+<Giuigi>
+
+<csv xpath="/entity_classes/entity_class/property[starts-with(@name,'ItemsOnEnterGame.GameModeSurvival') or starts-with(@name,'ItemsOnEnterGame.GameModeSurvivalSP') or starts-with(@name,'ItemsOnEnterGame.GameModeSurvivalMP')]/@value" op="Add">noteGunGameG</csv>
+
+<remove xpath="/entity_classes/entity_class/property[@name='DropInventoryBlock']"/>
+
+</Giuigi>
