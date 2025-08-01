@@ -1,5 +1,8 @@
 <Giuigi>
 
-
+<setattribute xpath="/challenges/challenge[@name='craftWoodClub']/objective" name="type">Wear</setattribute>
+<setattribute xpath="/challenges/challenge[@name='craftWoodClub']/objective" name="item">armorPrimitiveOutfit</setattribute>
+<setattribute xpath="/challenges/challenge[@name='craftBow']/objective" name="type">Wear</setattribute>
+<setattribute xpath="/challenges/challenge[@name='craftBow']/objective" name="item">armorPrimitiveOutfit</setattribute>
 
 </Giuigi>
