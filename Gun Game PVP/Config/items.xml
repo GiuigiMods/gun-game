@@ -14,6 +14,18 @@
 	</property>
 </item>
 
+<item name="noteRepeatGunGameG">
+	<property name="Extends" value="questMaster"/>
+	<property name="DescriptionKey" value="noteRepeatGunGameGDesc"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property class="Action0">
+		<property name="Class" value="Quest"/>
+		<property name="QuestGiven" value="quest_repeatGunGameG"/>
+		<property name="Delay" value="0.5"/>
+		<property name="UseAnimation" value="false"/>
+	</property>
+</item>
+
 <item name="humanSkullGunGameG">
 	<property name="Tags" value="human_skull_gun_game"/>
 	<property name="CustomIcon" value="goreHumanSkull"/>
@@ -42,7 +54,7 @@
 
 <item name="gunBowGunGameG">
 	<property name="Extends" value="gunBowT0PrimitiveBow"/>
-	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game,gun_game_repeat1"/>
 	<property name="CustomIcon" value="gunBowT0PrimitiveBow"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -96,7 +108,7 @@
 
 <item name="gunWoodenBowGunGameG">
 	<property name="Extends" value="gunBowT1WoodenBow"/>
-	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game,gun_game_repeat6"/>
 	<property name="CustomIcon" value="gunBowT1WoodenBow"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -154,7 +166,7 @@
 
 <item name="gunCompoundBowGunGameG">
 	<property name="Extends" value="gunBowT3CompoundBow"/>
-	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,gun_game,gun_game_repeat11"/>
 	<property name="CustomIcon" value="gunBowT3CompoundBow"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -214,7 +226,7 @@
 
 <item name="gunIronCrossbowGunGameG">
 	<property name="Extends" value="gunBowT1IronCrossbow"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,gun_game,gun_game_repeat8"/>
 	<property name="CustomIcon" value="gunBowT1IronCrossbow"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -273,7 +285,7 @@
 
 <item name="gunCompoundCrossbowGunGameG">
 	<property name="Extends" value="gunBowT3CompoundCrossbow"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,gun_game,gun_game_repeat15"/>
 	<property name="CustomIcon" value="gunBowT3CompoundCrossbow"/>
 	<property name="DescriptionKey" value="gunIronCrossbowGunGameGDesc"/>
 	<property name="RepairTools" value=""/>
@@ -333,7 +345,7 @@
 
 <item name="gunPipePistolGunGameG">
 	<property name="Extends" value="gunHandgunT0PipePistol"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,gun_game,gun_game_repeat3"/>
 	<property name="CustomIcon" value="gunHandgunT0PipePistol"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -378,7 +390,7 @@
 
 <item name="gunPistolGunGameG">
 	<property name="Extends" value="gunHandgunT1Pistol"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,gun_game,gun_game_repeat9"/>
 	<property name="CustomIcon" value="gunHandgunT1Pistol"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -426,7 +438,7 @@
 
 <item name="gunSMGGunGameG">
 	<property name="Extends" value="gunHandgunT3SMG5"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,gun_game,gun_game_repeat16"/>
 	<property name="CustomIcon" value="gunHandgunT3SMG5"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -475,7 +487,7 @@
 
 <item name="gunMagnumGunGameG">
 	<property name="Extends" value="gunHandgunT2Magnum44"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,44enforcer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,enforcerReload,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,44enforcer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage,enforcerReload,gun_game,gun_game_repeat14"/>
 	<property name="CustomIcon" value="gunHandgunT2Magnum44"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -524,7 +536,7 @@
 
 <item name="gunDesertVultureGunGameG">
 	<property name="Extends" value="gunHandgunT3DesertVulture"/>
-	<property name="Tags" value="weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,gun_game"/>
+	<property name="Tags" value="weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,gun_game,gun_game_repeat19"/>
 	<property name="CustomIcon" value="gunHandgunT3DesertVulture"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -573,7 +585,7 @@
 
 <item name="gunPipeShotgunGunGameG">
 	<property name="Extends" value="gunShotgunT0PipeShotgun"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,smallTopAttachments,noScopes,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,smallTopAttachments,noScopes,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game,gun_game_repeat2"/>
 	<property name="CustomIcon" value="gunShotgunT0PipeShotgun"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -612,7 +624,7 @@
 
 <item name="gunDoubleBarrelShotgunGunGameG">
 	<property name="Extends" value="gunShotgunT1DoubleBarrel"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic,attachmentsIncluded,shotgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic,attachmentsIncluded,shotgunSkill,gun_game,gun_game_repeat7"/>
 	<property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -651,7 +663,7 @@
 
 <item name="gunPumpShotgunGunGameG">
 	<property name="Extends" value="gunShotgunT2PumpShotgun"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game,gun_game_repeat12"/>
 	<property name="CustomIcon" value="gunShotgunT2PumpShotgun"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -691,7 +703,7 @@
 
 <item name="gunAutoShotgunGunGameG">
 	<property name="Extends" value="gunShotgunT3AutoShotgun"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,gun_game,gun_game_repeat21"/>
 	<property name="CustomIcon" value="gunShotgunT3AutoShotgun"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -731,7 +743,7 @@
 
 <item name="gunPipeRifleGunGameG">
 	<property name="Extends" value="gunRifleT0PipeRifle"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,attachmentsIncluded,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,rifleSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,attachmentsIncluded,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,rifleSkill,gun_game,gun_game_repeat4"/>
 	<property name="CustomIcon" value="gunRifleT0PipeRifle"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -777,7 +789,7 @@
 
 <item name="gunHuntingRifleGunGameG">
 	<property name="Extends" value="gunRifleT1HuntingRifle"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,gun_game,gun_game_repeat10"/>
 	<property name="CustomIcon" value="gunRifleT1HuntingRifle"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -829,7 +841,7 @@
 
 <item name="gunLeverActionRifleGunGameG">
 	<property name="Extends" value="gunRifleT2LeverActionRifle"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,rangerDamage,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,rangerDamage,gun_game,gun_game_repeat17"/>
 	<property name="CustomIcon" value="gunRifleT2LeverActionRifle"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -880,7 +892,7 @@
 
 <item name="gunSniperRifleGunGameG">
 	<property name="Extends" value="gunRifleT3SniperRifle"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,gun_game,gun_game_repeat20"/>
 	<property name="CustomIcon" value="gunRifleT3SniperRifle"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -930,7 +942,7 @@
 
 <item name="gunPipeMachineGunGunGameG">
 	<property name="Extends" value="gunMGT0PipeMachineGun"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game,gun_game_repeat5"/>
 	<property name="CustomIcon" value="gunMGT0PipeMachineGun"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -976,7 +988,7 @@
 
 <item name="gunAK47GunGameG">
 	<property name="Extends" value="gunMGT1AK47"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game,gun_game_repeat13"/>
 	<property name="CustomIcon" value="gunMGT1AK47"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -1026,7 +1038,7 @@
 
 <item name="gunTacticalARGunGameG">
 	<property name="Extends" value="gunMGT2TacticalAR"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic,attachmentsIncluded,machinegunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic,attachmentsIncluded,machinegunSkill,gun_game,gun_game_repeat18"/>
 	<property name="CustomIcon" value="gunMGT2TacticalAR"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -1076,7 +1088,7 @@
 
 <item name="gunM60GunGameG">
 	<property name="Extends" value="gunMGT3M60"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,gun_game,gun_game_repeat22"/>
 	<property name="CustomIcon" value="gunMGT3M60"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
@@ -1126,7 +1138,7 @@
 
 <item name="gunRocketLauncherGunGameG">
 	<property name="Extends" value="gunExplosivesT3RocketLauncher"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,gun_game"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,gun_game,gun_game_repeat23"/>
 	<property name="CustomIcon" value="gunExplosivesT3RocketLauncher"/>
 	<property name="RepairTools" value=""/>
 	<property name="TraderStageTemplate" value=""/>
