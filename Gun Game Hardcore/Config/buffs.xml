@@ -347,6 +347,351 @@
 	</effect_group>
 </buff>
 
+<buff name="buffRepeatProgress1GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat1"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier1_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress1GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress2GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat2"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier2_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress2GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress3GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat3"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier3_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress3GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress4GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat4"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier4_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress4GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress5GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat5"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier5_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress5GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress6GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat6"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier6_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress6GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress7GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat7"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier7_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress7GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress8GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat8"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier8_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress8GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress9GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat9"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier9_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress9GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress10GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat10"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier10_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress10GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress11GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat11"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier11_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress11GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress12GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat12"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier12_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress12GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress13GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat13"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier13_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress13GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress14GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat14"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier14_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress14GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress15GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat15"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier15_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress15GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress16GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat16"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier16_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress16GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress17GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat17"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier17_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress17GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress18GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat18"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier18_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress18GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress19GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat19"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier19_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress19GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress20GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier20_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress20GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress21GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat21"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier21_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress21GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress22GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat22"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier22_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress22GunGameG"/>
+	</effect_group>
+</buff>
+
+<buff name="buffRepeatProgress23GunGameG" hidden="true" remove_on_death="false">
+	<stack_type value="ignore"/>
+	
+	<effect_group name="Zombie Kill">
+		<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="add_zombie_skull">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="gun_game_repeat23"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfRespawn" action="CallGameEvent" event="tier23_GunGameG_repeat_fail"/>
+		<triggered_effect trigger="onSelfRespawn" action="RemoveBuff" buff="buffRepeatProgress23GunGameG"/>
+	</effect_group>
+</buff>
+
 </append>
 
 </Giuigi>
